@@ -72,7 +72,6 @@ const Task46 = () => {
         <option value="24">24</option>
         <option value="36">36</option>
         <option value="48">48</option>
-        <option value="All">ALL</option>
       </select>
       <span className="text-gray-600">sản phẩm</span>
     </div>
