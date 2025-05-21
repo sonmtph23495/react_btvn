@@ -17,6 +17,12 @@ const HomePage = () => {
                 <Link to="/task45">Task 45</Link>
 
             </li>
+            <li>
+                <Link to="/task46">Task 46</Link>
+            </li>
+            <li>
+                <Link to="/task47">Task 47</Link>
+            </li>
             </ul>
         </nav>
     

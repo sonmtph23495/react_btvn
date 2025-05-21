@@ -64,10 +64,9 @@ const Task45 = () => {
         setSeach(e.target.value)
     }
     const filteredProducts = products.filter((product) =>
-        //toán tử 3 ngôi nếu chuối rỗng thì không tìm kiếm 
         product.title.toLowerCase().includes(seach.toLowerCase())
-       
     )
+    
     
 
 
