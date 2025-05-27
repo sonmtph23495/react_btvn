@@ -4,19 +4,24 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"vite\" \"json-server --watch db.json --port 3000\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
     "@tailwindcss/vite": "^4.1.7",
     "axios": "^1.9.0",
     "bootstrap": "^5.3.6",
+    "concurrently": "^9.1.2",
+    "json-server": "^0.17.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
-    "tailwindcss": "^4.1.7"
+    "react-toastify": "^11.0.5",
+    "tailwindcss": "^4.1.7",
+    "zod": "^3.25.28"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",

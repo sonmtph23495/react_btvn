@@ -41,3 +41,18 @@
 .read-the-docs {
   color: #888;
 }
+button {
+  background-color: #646cff;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 300ms, transform 300ms;
+}
+button:hover {
+  background-color: #5755d9;
+}
+button:active {
+  transform: scale(0.95);
+}
